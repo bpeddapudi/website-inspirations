@@ -122,7 +122,7 @@ Before you begin, ensure you have the following installed on your development ma
 
 ### Run with Gitpod
 
-This app can also be run in Gitpod. We recommend running using Gitpod to build and run this app on the browser. To run this app in Gitpod you will need -
+This app can also be run in Gitpod. If you plan to use Gitpod, we recommend running using Gitpod classic to build and run this app on the browser. To run this app in Gitpod you will need -
 - Github account
 - Gitpod Classic account
 
