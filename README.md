@@ -41,7 +41,7 @@ Before you begin, ensure you have the following installed on your development ma
    - Download and install from [docker.com](https://www.docker.com/)
    - Verify installation: `docker --version`
 
-### Web app setup
+### Page Prism Web app setup
 
 1. Clone this repository or download the the code as a zip.
 
@@ -64,14 +64,7 @@ Before you begin, ensure you have the following installed on your development ma
 
    This will run all the tests in the project using Jest.
 
-5.1 Run tests in watch mode (for development):
-   ```
-   npm test -- --watch
-   ```
-
-   This will run Jest in watch mode, which will re-run tests when files change.
-
-### Ollama setup 🦙
+### LLM setup 🦙 (secondary application for AI evaluation)
 
 1. Pull and run docker image
    - `docker pull ollama/ollama`
