@@ -14,7 +14,7 @@ Inspirations are content pulled from an existing webpage that has certain featur
 - Organize inspirations within projects
 - View and edit project and inspiration details
 
-## Technology Stack
+## Dependencies
 
 - React 18
 - TypeScript
@@ -23,16 +23,6 @@ Inspirations are content pulled from an existing webpage that has certain featur
 - React Router
 - IndexedDB (via idb library)
 
-## Project Structure
-
-- `/src`: Source code
-  - `/components`: Reusable React components
-  - `/layouts`: Layout components
-  - `/pages`: Page components
-  - `/services`: API and data services
-  - `/utils`: Utility functions
-  - `/models`: TypeScript interfaces and types
-  - `/hooks`: Custom React hooks
 
 ## 🛠️ Setup Instructions
 
@@ -46,10 +36,6 @@ Before you begin, ensure you have the following installed on your development ma
 
 2. **npm** (usually comes with Node.js)
    - Verify installation: `npm --version`
-
-3. **Git**
-   - Download and install from [git-scm.com](https://git-scm.com/)
-   - Verify installation: `git --version`
 
 3. **Docker**
    - Download and install from [docker.com](https://www.docker.com/)
