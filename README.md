@@ -96,12 +96,12 @@ Before you begin, ensure you have the following installed on your development ma
    - `curl -v --location 'http://localhost:11434/api/generate' --header 'Content-Type: application/json' --data '{"model": "tinyllama","prompt": "why is the sky blue?", "stream": true}'`
 
 
-## Additional Notes
+## 📔 Additional Notes
 
 - The project uses IndexedDB for local storage, simulating a backend database
 - API calls can be mocked with artificial latency to simulate network requests
 
-## Additional Setup
+## 📔 Additional Setup
 
 - **VS Code Extensions** (optional but recommended):
   - ESLint
