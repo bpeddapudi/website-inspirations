@@ -1,13 +1,16 @@
 # Page Prism - Intuit Front End A4A
 
-## Project Overview
+## Introduction
 
 Page Prism is a web application designed to help designers and developers collect and organize visual inspirations for their projects.
 
-## Key Features
+Projects might be something like a new website or new feature on a site. 
+Inspirations are content pulled from an existing webpage that has certain features that inspire the project.
+
+### Key Features
 
 - Create and manage design inspiration projects
-- Capture screenshots of websites and save them as inspirations
+- Capture screenshots of websites and save them as `inspirations`
 - Organize inspirations within projects
 - View and edit project and inspiration details
 
@@ -20,7 +23,20 @@ Page Prism is a web application designed to help designers and developers collec
 - React Router
 - IndexedDB (via idb library)
 
-## Prerequisites
+## Project Structure
+
+- `/src`: Source code
+  - `/components`: Reusable React components
+  - `/layouts`: Layout components
+  - `/pages`: Page components
+  - `/services`: API and data services
+  - `/utils`: Utility functions
+  - `/models`: TypeScript interfaces and types
+  - `/hooks`: Custom React hooks
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
 
 Before you begin, ensure you have the following installed on your development machine:
 
@@ -39,45 +55,37 @@ Before you begin, ensure you have the following installed on your development ma
    - Download and install from [docker.com](https://www.docker.com/)
    - Verify installation: `docker --version`
 
-## Getting Started (web App)
+### Web app setup
 
-1. Fork the repository:
-   - Visit the GitHub repository
-   - Click the "Fork" button in the top-right corner to create your own copy of the repository
+1. Clone this repository or download the the code as a zip.
 
-2. Clone your forked repository:
-   ```
-   git clone https://github.com/your-username/page-prism.git
-   cd page-prism
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
    ```
    npm install
    ```
 
-4. Start the development server:
+3. Start the development server:
    ```
    npm run dev
    ```
 
-5. Open your browser and visit `http://localhost:5173` to view the application.
+4. Open your browser and visit `http://localhost:5173` to view the application.
 
-6. Run tests:
+5. Run tests:
    ```
    npm test
    ```
 
    This will run all the tests in the project using Jest.
 
-7. Run tests in watch mode (for development):
+5.1 Run tests in watch mode (for development):
    ```
    npm test -- --watch
    ```
 
    This will run Jest in watch mode, which will re-run tests when files change.
 
-## Getting Started (genAI)
+### Ollama setup 🦙
 
 1. Pull and run docker image
    - `docker pull ollama/ollama`
@@ -87,16 +95,6 @@ Before you begin, ensure you have the following installed on your development ma
 2. Test API server
    - `curl -v --location 'http://localhost:11434/api/generate' --header 'Content-Type: application/json' --data '{"model": "tinyllama","prompt": "why is the sky blue?", "stream": true}'`
 
-## Project Structure
-
-- `/src`: Source code
-  - `/components`: Reusable React components
-  - `/layouts`: Layout components
-  - `/pages`: Page components
-  - `/services`: API and data services
-  - `/utils`: Utility functions
-  - `/models`: TypeScript interfaces and types
-  - `/hooks`: Custom React hooks
 
 ## Additional Notes
 
