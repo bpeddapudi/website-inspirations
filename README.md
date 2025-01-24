@@ -73,6 +73,9 @@ Before you begin, ensure you have the following installed on your development ma
 
 2. Test API server
    - `curl -v --location 'http://localhost:11434/api/generate' --header 'Content-Type: application/json' --data '{"model": "tinyllama","prompt": "why is the sky blue?", "stream": true}'`
+  
+
+Having trouble with docker? Try using podman as an alternative. Instructions [here](https://github.com/Intuit-A4A/frontend-page-prism/wiki/Supplemental-Materials:-Set-up-help).
 
 
 ## 📔 Additional Notes
