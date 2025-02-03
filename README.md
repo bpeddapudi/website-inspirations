@@ -37,9 +37,9 @@ Before you begin, ensure you have the following installed on your development ma
 2. **npm** (usually comes with Node.js)
    - Verify installation: `npm --version`
 
-3. **Docker**
-   - Download and install from [docker.com](https://www.docker.com/)
-   - Verify installation: `docker --version`
+3. **Container Manager**
+   - Download and install from [docker.com](https://www.docker.com/) or [podman](https://podman.io/) (alternative)
+   - Verify installation: `docker --version` for docker
 
 ### Page Prism Web app setup
 
