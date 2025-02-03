@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed on your development ma
    - Verify installation: `npm --version`
 
 3. **Container Manager**
-   - Download and install from [docker.com](https://www.docker.com/) or [podman](https://podman.io/) (alternative)
+   - Download and install from [docker.com](https://www.docker.com/)(recommended) or [podman](https://podman.io/) (alternative)
    - Verify installation: `docker --version` for docker
 
 ### Page Prism Web app setup
