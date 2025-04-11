@@ -1,4 +1,4 @@
-# 💎 Page Prism - Intuit Front End A4A
+# 💎 Page Prism - Common Front End Interviews based on React
 
 ## Introduction
 
@@ -37,9 +37,6 @@ Before you begin, ensure you have the following installed on your development ma
 2. **npm** (usually comes with Node.js)
    - Verify installation: `npm --version`
 
-3. **Container Manager**
-   - Download and install from [docker.com](https://www.docker.com/)(recommended) or [podman](https://podman.io/) (alternative)
-   - Verify installation: `docker --version` for docker
 
 ### Page Prism Web app setup
 
@@ -63,19 +60,6 @@ Before you begin, ensure you have the following installed on your development ma
    ```
 
    This will run all the tests in the project using Jest.
-
-### LLM setup 🦙 (secondary application for AI evaluation)
-
-1. Pull and run docker image
-   - `docker pull ollama/ollama`
-   - `docker run -it -v ~/ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama`
-   - `docker exec -it ollama ollama run tinyllama`
-
-2. Test API server
-   - `curl -v --location 'http://localhost:11434/api/generate' --header 'Content-Type: application/json' --data '{"model": "tinyllama","prompt": "why is the sky blue?", "stream": true}'`
-  
-
-Having trouble with docker? Try using podman as an alternative. Instructions [here](https://github.com/Intuit-A4A/frontend-page-prism/wiki/Supplemental-Materials:-Set-up-help).
 
 
 ## 📔 Additional Notes
