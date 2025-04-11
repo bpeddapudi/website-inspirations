@@ -1,4 +1,4 @@
-# 💎 Page Prism - Common Front End Interviews based on React
+# 💎 Website Inspirations - Project for simple front end react learning.
 
 ## Introduction
 
